@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLuong_QA_A2", "TLuong_QA_A2.csproj", "{65C7C599-C419-40D6-B4E8-1432B41D4F97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLuong_QA_A2.Tests", "..\TLuong_QA_A2.Tests\TLuong_QA_A2.Tests.csproj", "{FDE892E4-06AB-4A1E-A1B3-3B6C3D6643FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65C7C599-C419-40D6-B4E8-1432B41D4F97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C7C599-C419-40D6-B4E8-1432B41D4F97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C7C599-C419-40D6-B4E8-1432B41D4F97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C7C599-C419-40D6-B4E8-1432B41D4F97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE892E4-06AB-4A1E-A1B3-3B6C3D6643FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE892E4-06AB-4A1E-A1B3-3B6C3D6643FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE892E4-06AB-4A1E-A1B3-3B6C3D6643FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE892E4-06AB-4A1E-A1B3-3B6C3D6643FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A850AF5-5661-4B03-A9D3-5E7F6796CE05}
+	EndGlobalSection
+EndGlobal

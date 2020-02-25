@@ -1,0 +1,6 @@
+C:\Users\luong\OneDrive\CONESTOGA\LEVEL4_QA\Assignment2\TLuong_QA_A2\bin\Debug\TLuong_QA_A2.exe.config
+C:\Users\luong\OneDrive\CONESTOGA\LEVEL4_QA\Assignment2\TLuong_QA_A2\bin\Debug\TLuong_QA_A2.exe
+C:\Users\luong\OneDrive\CONESTOGA\LEVEL4_QA\Assignment2\TLuong_QA_A2\bin\Debug\TLuong_QA_A2.pdb
+C:\Users\luong\OneDrive\CONESTOGA\LEVEL4_QA\Assignment2\TLuong_QA_A2\obj\Debug\TLuong_QA_A2.csprojAssemblyReference.cache
+C:\Users\luong\OneDrive\CONESTOGA\LEVEL4_QA\Assignment2\TLuong_QA_A2\obj\Debug\TLuong_QA_A2.exe
+C:\Users\luong\OneDrive\CONESTOGA\LEVEL4_QA\Assignment2\TLuong_QA_A2\obj\Debug\TLuong_QA_A2.pdb
