@@ -18,35 +18,24 @@ namespace TLuong_QA_A2
                 int a;
                 int b;
                 int c;
-                int limit = 999999999;
                 switch (userInput)
                 {
                     case "1":
-                        Console.WriteLine("Please enter the 3 dimensions:");
+                        Console.WriteLine("Please enter the 3 dimensions [Max value : 2,147,483,647]:");
                         Console.WriteLine("First dimension:");
                         Int32.TryParse(Console.ReadLine(), out a);
-                        if (a < limit)
+                        Console.WriteLine("Second dimension:");
+                        Int32.TryParse(Console.ReadLine(), out b);
+                        Console.WriteLine("Third dimension:");
+                        Int32.TryParse(Console.ReadLine(), out c);
+                        if ( a > 0 && b > 0 && c > 0)
                         {
-                            Console.WriteLine("Second dimension:");
-                            Int32.TryParse(Console.ReadLine(), out b);
-                            if (b < limit)
-                            {
-                                Console.WriteLine("Third dimension:");
-                                Int32.TryParse(Console.ReadLine(), out c);
-                                if (c < limit)
-                                {
-
-                                    if (a > 0 && b > 0 && c > 0)
-                                    {
-                                        Console.WriteLine(TriangleSolver.Analyze(a, b, c));
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine("Wrong input");
-                                        break;
-                                    }
-                                }
-                            }
+                            Console.WriteLine(TriangleSolver.Analyze(a, b, c));
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid input[s], please try again!");
+                            break;
                         }
                         break;
 

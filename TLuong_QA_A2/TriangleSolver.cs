@@ -11,20 +11,30 @@ namespace TLuong_QA_A2
         static string result = "";
         public static string Analyze(int a, int b, int c)
         {
-            
-            if (a + b < c || a + c < b || b + c < a)
+            if (a + b <= c || a + c <= b || b + c <= a)
             {
                 return result = "Not a triangle";
             }
-            else if (a == b && b == c)
+            else if (a + b < 0 || a + c < 0 || b + c < 0)
             {
-                return result = "Equilateral Triangle";
+                return result = "Out of calculation range";
             }
-            else if (a == b || b == c || a == c)
+            else if (a < 0 || b < 0 || c < 0)
             {
-                return result = "Isosceles Triangle";
+                return result = "Invalid";
             }
-            return result = "Scalene Triangle";
+            else
+            {
+                if (a == b && b == c)
+                {
+                    return result = "Equilateral Triangle";
+                }
+                else if (a == b || b == c || a == c)
+                {
+                    return result = "Isosceles Triangle";
+                }
+                return result = "Scalene Triangle";
+            }
         }
     }
 }
